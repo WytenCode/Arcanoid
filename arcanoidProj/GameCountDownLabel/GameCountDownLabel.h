@@ -14,5 +14,6 @@
 
 -(void)startCountdown;
 @property (nonatomic, weak) id<CountDownDelegate> delegate;
+- (void)stopTimer;
 
 @end

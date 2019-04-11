@@ -41,12 +41,17 @@
     self.curTime --;
     if (self.curTime == 0)
     {
-        [self.countDownTimer invalidate];
-        self.countDownTimer = nil;
+        [self stopTimer];
         [self.delegate continueGame];
     }
     self.text = [NSString stringWithFormat:@"%ld", self.curTime];
     [self.delegate refreshCountdownData];
+}
+
+- (void)stopTimer
+{
+    [self.countDownTimer invalidate];
+    self.countDownTimer = nil;
 }
 
 

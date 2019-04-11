@@ -52,6 +52,13 @@ static const NSInteger scoreToWin = 3;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.myBallView stopBallViewMovement];
+    [self.myCountLabel removeFromSuperview];
+    [self.myCountLabel stopTimer];
+}
+
 -(void)setupPlaygroundViewWithDifficulty:(CGFloat)difficulty ballSpeedUp:(BOOL)ballSpeedUp
 {
     self.playgroundView = [[UIView alloc] initWithFrame:CGRectMake(20, 60, self.view.frame.size.width - 40, self.view.frame.size.height - 120)];
@@ -199,6 +206,9 @@ static const NSInteger scoreToWin = 3;
     
     if (self.playgroundView != nil)
     {
+        [self.myBallView stopBallViewMovement];
+        [self.myCountLabel removeFromSuperview];
+        [self.myCountLabel stopTimer];
         [self setupGameCountDownLabel];
         return;
     }
