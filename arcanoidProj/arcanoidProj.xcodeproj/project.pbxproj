@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70F4CAE225F735800C5DA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CAD225F735800C5DA18 /* AppDelegate.m */; };
+		E70F4CB1225F735800C5DA18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CB0225F735800C5DA18 /* ViewController.m */; };
+		E70F4CB4225F735800C5DA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70F4CB2225F735800C5DA18 /* Main.storyboard */; };
+		E70F4CB6225F735900C5DA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70F4CB5225F735900C5DA18 /* Assets.xcassets */; };
+		E70F4CB9225F735900C5DA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70F4CB7225F735900C5DA18 /* LaunchScreen.storyboard */; };
+		E70F4CBC225F735900C5DA18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CBB225F735900C5DA18 /* main.m */; };
+		E70F4CC5225F73D200C5DA18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CC4225F73D200C5DA18 /* MainViewController.m */; };
+		E70F4CC9225F741100C5DA18 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CC8225F741100C5DA18 /* PreferencesViewController.m */; };
+		E70F4CCD225F747600C5DA18 /* PlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CCC225F747600C5DA18 /* PlaygroundViewController.m */; };
+		E70F4CD4225F74EF00C5DA18 /* UpperGamerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CD3225F74EF00C5DA18 /* UpperGamerView.m */; };
+		E70F4CDD225F758E00C5DA18 /* LowerGamerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CDC225F758E00C5DA18 /* LowerGamerView.m */; };
+		E70F4CE0225F75D600C5DA18 /* GameCountDownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CDF225F75D600C5DA18 /* GameCountDownLabel.m */; };
+		E70F4CE3225F761000C5DA18 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CE2225F761000C5DA18 /* BallView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E70F4CA9225F735800C5DA18 /* arcanoidProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arcanoidProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70F4CAC225F735800C5DA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E70F4CAD225F735800C5DA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E70F4CAF225F735800C5DA18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E70F4CB0225F735800C5DA18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E70F4CB3225F735800C5DA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E70F4CB5225F735900C5DA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E70F4CB8225F735900C5DA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E70F4CBA225F735900C5DA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70F4CBB225F735900C5DA18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E70F4CC3225F73D200C5DA18 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E70F4CC4225F73D200C5DA18 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E70F4CC7225F741100C5DA18 /* PreferencesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		E70F4CC8225F741100C5DA18 /* PreferencesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		E70F4CCB225F747600C5DA18 /* PlaygroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundViewController.h; sourceTree = "<group>"; };
+		E70F4CCC225F747600C5DA18 /* PlaygroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundViewController.m; sourceTree = "<group>"; };
+		E70F4CD2225F74EF00C5DA18 /* UpperGamerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpperGamerView.h; sourceTree = "<group>"; };
+		E70F4CD3225F74EF00C5DA18 /* UpperGamerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpperGamerView.m; sourceTree = "<group>"; };
+		E70F4CDB225F758E00C5DA18 /* LowerGamerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LowerGamerView.h; sourceTree = "<group>"; };
+		E70F4CDC225F758E00C5DA18 /* LowerGamerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LowerGamerView.m; sourceTree = "<group>"; };
+		E70F4CDE225F75D600C5DA18 /* GameCountDownLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCountDownLabel.h; sourceTree = "<group>"; };
+		E70F4CDF225F75D600C5DA18 /* GameCountDownLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCountDownLabel.m; sourceTree = "<group>"; };
+		E70F4CE1225F761000C5DA18 /* BallView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		E70F4CE2225F761000C5DA18 /* BallView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70F4CA6225F735800C5DA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70F4CA0225F735800C5DA18 = {
+			isa = PBXGroup;
+			children = (
+				E70F4CD1225F74CE00C5DA18 /* BallView */,
+				E70F4CD0225F74C200C5DA18 /* GameCountDownLabel */,
+				E70F4CCF225F74B000C5DA18 /* LowerGamerView */,
+				E70F4CCE225F74A500C5DA18 /* UpperGamerView */,
+				E70F4CCA225F745500C5DA18 /* PlaygroundViewController */,
+				E70F4CC6225F73F400C5DA18 /* PreferencesViewController */,
+				E70F4CC2225F73B800C5DA18 /* MainViewController */,
+				E70F4CAB225F735800C5DA18 /* arcanoidProj */,
+				E70F4CAA225F735800C5DA18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E70F4CAA225F735800C5DA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CA9225F735800C5DA18 /* arcanoidProj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70F4CAB225F735800C5DA18 /* arcanoidProj */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CAC225F735800C5DA18 /* AppDelegate.h */,
+				E70F4CAD225F735800C5DA18 /* AppDelegate.m */,
+				E70F4CAF225F735800C5DA18 /* ViewController.h */,
+				E70F4CB0225F735800C5DA18 /* ViewController.m */,
+				E70F4CB2225F735800C5DA18 /* Main.storyboard */,
+				E70F4CB5225F735900C5DA18 /* Assets.xcassets */,
+				E70F4CB7225F735900C5DA18 /* LaunchScreen.storyboard */,
+				E70F4CBA225F735900C5DA18 /* Info.plist */,
+				E70F4CBB225F735900C5DA18 /* main.m */,
+			);
+			path = arcanoidProj;
+			sourceTree = "<group>";
+		};
+		E70F4CC2225F73B800C5DA18 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CC3225F73D200C5DA18 /* MainViewController.h */,
+				E70F4CC4225F73D200C5DA18 /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		E70F4CC6225F73F400C5DA18 /* PreferencesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CC7225F741100C5DA18 /* PreferencesViewController.h */,
+				E70F4CC8225F741100C5DA18 /* PreferencesViewController.m */,
+			);
+			path = PreferencesViewController;
+			sourceTree = "<group>";
+		};
+		E70F4CCA225F745500C5DA18 /* PlaygroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CCB225F747600C5DA18 /* PlaygroundViewController.h */,
+				E70F4CCC225F747600C5DA18 /* PlaygroundViewController.m */,
+			);
+			path = PlaygroundViewController;
+			sourceTree = "<group>";
+		};
+		E70F4CCE225F74A500C5DA18 /* UpperGamerView */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CD2225F74EF00C5DA18 /* UpperGamerView.h */,
+				E70F4CD3225F74EF00C5DA18 /* UpperGamerView.m */,
+			);
+			path = UpperGamerView;
+			sourceTree = "<group>";
+		};
+		E70F4CCF225F74B000C5DA18 /* LowerGamerView */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CDB225F758E00C5DA18 /* LowerGamerView.h */,
+				E70F4CDC225F758E00C5DA18 /* LowerGamerView.m */,
+			);
+			path = LowerGamerView;
+			sourceTree = "<group>";
+		};
+		E70F4CD0225F74C200C5DA18 /* GameCountDownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CDE225F75D600C5DA18 /* GameCountDownLabel.h */,
+				E70F4CDF225F75D600C5DA18 /* GameCountDownLabel.m */,
+			);
+			path = GameCountDownLabel;
+			sourceTree = "<group>";
+		};
+		E70F4CD1225F74CE00C5DA18 /* BallView */ = {
+			isa = PBXGroup;
+			children = (
+				E70F4CE1225F761000C5DA18 /* BallView.h */,
+				E70F4CE2225F761000C5DA18 /* BallView.m */,
+			);
+			path = BallView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70F4CA8225F735800C5DA18 /* arcanoidProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70F4CBF225F735900C5DA18 /* Build configuration list for PBXNativeTarget "arcanoidProj" */;
+			buildPhases = (
+				E70F4CA5225F735800C5DA18 /* Sources */,
+				E70F4CA6225F735800C5DA18 /* Frameworks */,
+				E70F4CA7225F735800C5DA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arcanoidProj;
+			productName = arcanoidProj;
+			productReference = E70F4CA9225F735800C5DA18 /* arcanoidProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70F4CA1225F735800C5DA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Владимир";
+				TargetAttributes = {
+					E70F4CA8225F735800C5DA18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E70F4CA4225F735800C5DA18 /* Build configuration list for PBXProject "arcanoidProj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E70F4CA0225F735800C5DA18;
+			productRefGroup = E70F4CAA225F735800C5DA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70F4CA8225F735800C5DA18 /* arcanoidProj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70F4CA7225F735800C5DA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70F4CB9225F735900C5DA18 /* LaunchScreen.storyboard in Resources */,
+				E70F4CB6225F735900C5DA18 /* Assets.xcassets in Resources */,
+				E70F4CB4225F735800C5DA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70F4CA5225F735800C5DA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70F4CD4225F74EF00C5DA18 /* UpperGamerView.m in Sources */,
+				E70F4CB1225F735800C5DA18 /* ViewController.m in Sources */,
+				E70F4CE0225F75D600C5DA18 /* GameCountDownLabel.m in Sources */,
+				E70F4CBC225F735900C5DA18 /* main.m in Sources */,
+				E70F4CDD225F758E00C5DA18 /* LowerGamerView.m in Sources */,
+				E70F4CC9225F741100C5DA18 /* PreferencesViewController.m in Sources */,
+				E70F4CAE225F735800C5DA18 /* AppDelegate.m in Sources */,
+				E70F4CE3225F761000C5DA18 /* BallView.m in Sources */,
+				E70F4CC5225F73D200C5DA18 /* MainViewController.m in Sources */,
+				E70F4CCD225F747600C5DA18 /* PlaygroundViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E70F4CB2225F735800C5DA18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70F4CB3225F735800C5DA18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E70F4CB7225F735900C5DA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70F4CB8225F735900C5DA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E70F4CBD225F735900C5DA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E70F4CBE225F735900C5DA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70F4CC0225F735900C5DA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arcanoidProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBOLSchool.arcanoidProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70F4CC1225F735900C5DA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arcanoidProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBOLSchool.arcanoidProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70F4CA4225F735800C5DA18 /* Build configuration list for PBXProject "arcanoidProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70F4CBD225F735900C5DA18 /* Debug */,
+				E70F4CBE225F735900C5DA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70F4CBF225F735900C5DA18 /* Build configuration list for PBXNativeTarget "arcanoidProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70F4CC0225F735900C5DA18 /* Debug */,
+				E70F4CC1225F735900C5DA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70F4CA1225F735800C5DA18 /* Project object */;
+}
