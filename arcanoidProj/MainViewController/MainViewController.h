@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "ProtocolHolder.h"
 
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <GameObserverProtocol>
 
 @property (nonatomic, weak) id<InitDelegate> delegate;
 

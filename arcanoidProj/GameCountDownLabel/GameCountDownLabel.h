@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PlaygroundViewController.h"
-
+#import "ProtocolHolder.h"
 
 @interface GameCountDownLabel : UILabel
 

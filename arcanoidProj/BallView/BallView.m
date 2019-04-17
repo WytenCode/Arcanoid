@@ -101,11 +101,19 @@
     
     // мяч пробил дно
     if (self.center.y + self.moveY + self.ballRadius >= self.superview.frame.size.height)
+    {
+        [self stopBallViewMovement];
         [self.pgDelegate gotRoundWinnerName:@"Up"];
+        return;
+    }
     
     // мяч пробил верх
     else if (self.center.y + self.moveY - self.ballRadius <= 0)
+    {
+        [self stopBallViewMovement];
         [self.pgDelegate gotRoundWinnerName:@"Down"];
+        return;
+    }
     
     nextX = self.center.x + (self.moveX * self.moveMultiplier);
     nextY = self.center.y + (self.moveY * self.moveMultiplier);

@@ -31,13 +31,12 @@
     prefsVC.tabBarItem.image = [UIImage imageNamed:@"Aegon"];
     
     PlaygroundViewController *playgroundVC = [[PlaygroundViewController alloc] init];
-    playgroundVC.tabBarItem.title = @"Игра";
-    playgroundVC.tabBarItem.image = [UIImage imageNamed:@"Hulk"];
-    
+
     mainVC.delegate = prefsVC;
     prefsVC.delegate = playgroundVC;
+    playgroundVC.gameObserverDelegate = mainVC;
     
-    NSArray *viewControllerArray = @[mainVC, prefsVC , playgroundVC];
+    NSArray *viewControllerArray = @[mainVC ,playgroundVC,  prefsVC];
     
     UITabBarController *tabBarViewController = [[UITabBarController alloc] init];
     tabBarViewController.tabBar.translucent = YES;
@@ -45,8 +44,8 @@
     tabBarViewController.tabBar.barTintColor = [UIColor blackColor];
     
     tabBarViewController.viewControllers = viewControllerArray;
-    self.window.rootViewController = tabBarViewController;
     
+    self.window.rootViewController = tabBarViewController;
     [self.window makeKeyAndVisible];
     
     return YES;

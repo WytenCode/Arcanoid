@@ -7,36 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "PlaygroundView.h"
+#import "ProtocolHolder.h"
 
+@interface PlaygroundViewController : UIViewController <PrefDelegate, PlaygroundDelegate>
 
-@protocol CountDownDelegate <NSObject>
--(void)continueGame;
--(void)refreshCountdownData;
-@end
-
-@protocol BallDelegate <NSObject>
--(CGRect)giveBallDelegateFrame;
--(CGPoint)giveBallDelegateCenter;
--(CGFloat)giveBallDelegateRadius;
--(void)changeBallDelegateYDirection;
--(void)changeBallDelegateXDirection;
--(BOOL)ballDelegateMovingLeft;
-@end
-
-@protocol GamerDelegate <NSObject>
--(BOOL)checkGamerIntersect;
--(void)initGamerMove;
-@end
-
-@protocol PlaygroundDelegate <NSObject>
--(void)gotRoundWinnerName:(NSString *) playerPos;
-@end
-
-
-
-@interface PlaygroundViewController : UIViewController <PrefDelegate, UITabBarDelegate, CountDownDelegate, PlaygroundDelegate>
-
+@property (nonatomic, weak) id<GameObserverProtocol> gameObserverDelegate;
+@property (nonatomic, weak) id<PlaygroundMoveDelegate> moveDelegate;
 
 @end
 

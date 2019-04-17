@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "ProtocolHolder.h"
+
 
 @interface PreferencesViewController : UIViewController <InitDelegate>
 

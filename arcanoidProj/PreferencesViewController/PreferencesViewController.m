@@ -7,6 +7,7 @@
 //
 
 #import "PreferencesViewController.h"
+#import "PlaygroundViewController.h"
 
 @interface PreferencesViewController ()
 @property (nonatomic, strong) UILabel *prefsLabel;
@@ -27,7 +28,6 @@
     [self preparePrefsLabel];
     [self prepareDifficultySlider];
     [self prepareSpeedSwitch];
-    // Do any additional setup after loading the view.
 }
 
 
@@ -85,6 +85,7 @@
     // если еще не отрисованы настройки, отрисовываем, чтобы честно получить начальные значаения по слайдеру и свичу
     if (self.difficultySlider == nil)
         [self viewDidLoad];
+    
     [self.delegate startGameWith:self.difficultySlider.value speedUp:self.speedBoostSwitch.on];
 }
 

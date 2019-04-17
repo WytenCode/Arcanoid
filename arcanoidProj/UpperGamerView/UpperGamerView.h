@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PlaygroundViewController.h"
+#import "ProtocolHolder.h"
 
 @interface UpperGamerView : UIView <GamerDelegate>
 

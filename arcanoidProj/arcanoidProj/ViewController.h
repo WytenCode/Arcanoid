@@ -8,18 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol InitDelegate <NSObject>
-
--(void)gameInitStarted;
-
-@end
-
-@protocol PrefDelegate <NSObject>
-
--(void)startGameWith:(CGFloat)difficulty speedUp:(BOOL)speedUp;
-
-@end
-
 @interface ViewController : UIViewController
 
 

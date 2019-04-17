@@ -20,6 +20,7 @@
 		E70F4CDD225F758E00C5DA18 /* LowerGamerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CDC225F758E00C5DA18 /* LowerGamerView.m */; };
 		E70F4CE0225F75D600C5DA18 /* GameCountDownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CDF225F75D600C5DA18 /* GameCountDownLabel.m */; };
 		E70F4CE3225F761000C5DA18 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4CE2225F761000C5DA18 /* BallView.m */; };
+		E7CC1C842267919800CE5AD1 /* PlaygroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC1C832267919800CE5AD1 /* PlaygroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,9 @@
 		E70F4CDF225F75D600C5DA18 /* GameCountDownLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCountDownLabel.m; sourceTree = "<group>"; };
 		E70F4CE1225F761000C5DA18 /* BallView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
 		E70F4CE2225F761000C5DA18 /* BallView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		E7CC1C822267919800CE5AD1 /* PlaygroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundView.h; sourceTree = "<group>"; };
+		E7CC1C832267919800CE5AD1 /* PlaygroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundView.m; sourceTree = "<group>"; };
+		E7CC1C862267C4B800CE5AD1 /* ProtocolHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolHolder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		E70F4CA0225F735800C5DA18 = {
 			isa = PBXGroup;
 			children = (
+				E7CC1C812267917600CE5AD1 /* PlaygroundView */,
 				E70F4CD1225F74CE00C5DA18 /* BallView */,
 				E70F4CD0225F74C200C5DA18 /* GameCountDownLabel */,
 				E70F4CCF225F74B000C5DA18 /* LowerGamerView */,
@@ -95,6 +100,7 @@
 				E70F4CB7225F735900C5DA18 /* LaunchScreen.storyboard */,
 				E70F4CBA225F735900C5DA18 /* Info.plist */,
 				E70F4CBB225F735900C5DA18 /* main.m */,
+				E7CC1C862267C4B800CE5AD1 /* ProtocolHolder.h */,
 			);
 			path = arcanoidProj;
 			sourceTree = "<group>";
@@ -160,6 +166,15 @@
 				E70F4CE2225F761000C5DA18 /* BallView.m */,
 			);
 			path = BallView;
+			sourceTree = "<group>";
+		};
+		E7CC1C812267917600CE5AD1 /* PlaygroundView */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC1C822267919800CE5AD1 /* PlaygroundView.h */,
+				E7CC1C832267919800CE5AD1 /* PlaygroundView.m */,
+			);
+			path = PlaygroundView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +250,7 @@
 				E70F4CD4225F74EF00C5DA18 /* UpperGamerView.m in Sources */,
 				E70F4CB1225F735800C5DA18 /* ViewController.m in Sources */,
 				E70F4CE0225F75D600C5DA18 /* GameCountDownLabel.m in Sources */,
+				E7CC1C842267919800CE5AD1 /* PlaygroundView.m in Sources */,
 				E70F4CBC225F735900C5DA18 /* main.m in Sources */,
 				E70F4CDD225F758E00C5DA18 /* LowerGamerView.m in Sources */,
 				E70F4CC9225F741100C5DA18 /* PreferencesViewController.m in Sources */,
